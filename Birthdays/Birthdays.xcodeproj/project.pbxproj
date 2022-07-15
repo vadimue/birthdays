@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		584860962881768A00C3EA1E /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 584860952881768A00C3EA1E /* Apollo */; };
 		5848609E2881799300C3EA1E /* PersonListContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584860992881799300C3EA1E /* PersonListContract.swift */; };
 		5848609F2881799300C3EA1E /* PersonListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848609A2881799300C3EA1E /* PersonListPresenter.swift */; };
 		584860A02881799300C3EA1E /* PersonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848609B2881799300C3EA1E /* PersonListViewController.swift */; };
@@ -27,7 +26,6 @@
 		584860C82881957F00C3EA1E /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584860C72881957F00C3EA1E /* Mocks.swift */; };
 		58CA9DE4288174E20004DBF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CA9DE3288174E20004DBF7 /* AppDelegate.swift */; };
 		58CA9DE6288174E20004DBF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CA9DE5288174E20004DBF7 /* SceneDelegate.swift */; };
-		58CA9DE8288174E20004DBF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CA9DE7288174E20004DBF7 /* ViewController.swift */; };
 		58CA9DEB288174E20004DBF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58CA9DE9288174E20004DBF7 /* Main.storyboard */; };
 		58CA9DED288174E40004DBF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58CA9DEC288174E40004DBF7 /* Assets.xcassets */; };
 		58CA9DF0288174E40004DBF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58CA9DEE288174E40004DBF7 /* LaunchScreen.storyboard */; };
@@ -66,7 +64,6 @@
 		58CA9DE0288174E20004DBF7 /* Birthdays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Birthdays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58CA9DE3288174E20004DBF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58CA9DE5288174E20004DBF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		58CA9DE7288174E20004DBF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58CA9DEA288174E20004DBF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58CA9DEC288174E40004DBF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58CA9DEF288174E40004DBF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,7 +78,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				58CA9E15288175A60004DBF7 /* SnapKit in Frameworks */,
-				584860962881768A00C3EA1E /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +178,6 @@
 				584860972881795F00C3EA1E /* Scenes */,
 				58CA9DE3288174E20004DBF7 /* AppDelegate.swift */,
 				58CA9DE5288174E20004DBF7 /* SceneDelegate.swift */,
-				58CA9DE7288174E20004DBF7 /* ViewController.swift */,
 				58CA9DE9288174E20004DBF7 /* Main.storyboard */,
 				58CA9DEC288174E40004DBF7 /* Assets.xcassets */,
 				58CA9DEE288174E40004DBF7 /* LaunchScreen.storyboard */,
@@ -218,7 +213,6 @@
 			name = Birthdays;
 			packageProductDependencies = (
 				58CA9E14288175A60004DBF7 /* SnapKit */,
-				584860952881768A00C3EA1E /* Apollo */,
 			);
 			productName = Birthdays;
 			productReference = 58CA9DE0288174E20004DBF7 /* Birthdays.app */;
@@ -272,7 +266,6 @@
 			mainGroup = 58CA9DD7288174E20004DBF7;
 			packageReferences = (
 				58CA9E13288175A60004DBF7 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				584860942881768A00C3EA1E /* XCRemoteSwiftPackageReference "apollo-ios" */,
 			);
 			productRefGroup = 58CA9DE1288174E20004DBF7 /* Products */;
 			projectDirPath = "";
@@ -314,7 +307,6 @@
 				584860C428818FC600C3EA1E /* PersonDetailsViewController.swift in Sources */,
 				5848609E2881799300C3EA1E /* PersonListContract.swift in Sources */,
 				584860C628818FC600C3EA1E /* PersonDetailsView.swift in Sources */,
-				58CA9DE8288174E20004DBF7 /* ViewController.swift in Sources */,
 				5848609F2881799300C3EA1E /* PersonListPresenter.swift in Sources */,
 				584860AF28817AE700C3EA1E /* PersonListProvider.swift in Sources */,
 				584860B9288186AA00C3EA1E /* ViewControllerViewUnwrappable.swift in Sources */,
@@ -615,14 +607,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		584860942881768A00C3EA1E /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.9.5;
-			};
-		};
 		58CA9E13288175A60004DBF7 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
@@ -634,11 +618,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		584860952881768A00C3EA1E /* Apollo */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 584860942881768A00C3EA1E /* XCRemoteSwiftPackageReference "apollo-ios" */;
-			productName = Apollo;
-		};
 		58CA9E14288175A60004DBF7 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 58CA9E13288175A60004DBF7 /* XCRemoteSwiftPackageReference "SnapKit" */;
