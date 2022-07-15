@@ -41,7 +41,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 extension SceneDelegate: PersonListSceneDelegate {
     func openPersonDetails(_ person: Person) {
-        //let viewController = PersonDetailsAssembly(delegate: self).makeScene()
-        //window?.rootViewController?.present(viewController, animated: true, completion: nil)
+        let viewController = PersonDetailsAssembly(delegate: self, input: .init(person: person)).makeScene()
+        let navigationController = (window?.rootViewController as? UINavigationController)
+        navigationController?.present(viewController, animated: true, completion: nil)
+    }
+}
+
+extension SceneDelegate: PersonDetailsSceneDelegate {
+    func close() {
+        (window?.rootViewController as? UINavigationController)?.dismiss(animated: true, completion: nil)
     }
 }
