@@ -8,8 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		584860962881768A00C3EA1E /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 584860952881768A00C3EA1E /* Apollo */; };
+		5848609E2881799300C3EA1E /* PersonListContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584860992881799300C3EA1E /* PersonListContract.swift */; };
+		5848609F2881799300C3EA1E /* PersonListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848609A2881799300C3EA1E /* PersonListPresenter.swift */; };
+		584860A02881799300C3EA1E /* PersonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848609B2881799300C3EA1E /* PersonListViewController.swift */; };
+		584860A12881799300C3EA1E /* PersonListAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848609C2881799300C3EA1E /* PersonListAssembly.swift */; };
+		584860A22881799300C3EA1E /* PersonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5848609D2881799300C3EA1E /* PersonListView.swift */; };
+		584860AF28817AE700C3EA1E /* PersonListProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584860AE28817AE700C3EA1E /* PersonListProvider.swift */; };
+		584860B128817B8600C3EA1E /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584860B028817B8600C3EA1E /* PersonTableViewCell.swift */; };
 		584860B42881813C00C3EA1E /* PersonListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584860B32881813C00C3EA1E /* PersonListService.swift */; };
 		584860B72881815800C3EA1E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584860B62881815800C3EA1E /* Person.swift */; };
+		584860B9288186AA00C3EA1E /* ViewControllerViewUnwrappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584860B8288186AA00C3EA1E /* ViewControllerViewUnwrappable.swift */; };
 		584860BB28818C8500C3EA1E /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584860BA28818C8500C3EA1E /* Formatters.swift */; };
 		58CA9DE4288174E20004DBF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CA9DE3288174E20004DBF7 /* AppDelegate.swift */; };
 		58CA9DE6288174E20004DBF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CA9DE5288174E20004DBF7 /* SceneDelegate.swift */; };
@@ -41,8 +49,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		584860992881799300C3EA1E /* PersonListContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListContract.swift; sourceTree = "<group>"; };
+		5848609A2881799300C3EA1E /* PersonListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListPresenter.swift; sourceTree = "<group>"; };
+		5848609B2881799300C3EA1E /* PersonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListViewController.swift; sourceTree = "<group>"; };
+		5848609C2881799300C3EA1E /* PersonListAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListAssembly.swift; sourceTree = "<group>"; };
+		5848609D2881799300C3EA1E /* PersonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListView.swift; sourceTree = "<group>"; };
+		584860AE28817AE700C3EA1E /* PersonListProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListProvider.swift; sourceTree = "<group>"; };
+		584860B028817B8600C3EA1E /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 		584860B32881813C00C3EA1E /* PersonListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListService.swift; sourceTree = "<group>"; };
 		584860B62881815800C3EA1E /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		584860B8288186AA00C3EA1E /* ViewControllerViewUnwrappable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerViewUnwrappable.swift; sourceTree = "<group>"; };
 		584860BA28818C8500C3EA1E /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
 		58CA9DE0288174E20004DBF7 /* Birthdays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Birthdays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58CA9DE3288174E20004DBF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +102,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		584860972881795F00C3EA1E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				584860982881796E00C3EA1E /* PersonList */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		584860982881796E00C3EA1E /* PersonList */ = {
+			isa = PBXGroup;
+			children = (
+				584860A328817ACF00C3EA1E /* TableView */,
+				584860992881799300C3EA1E /* PersonListContract.swift */,
+				5848609A2881799300C3EA1E /* PersonListPresenter.swift */,
+				5848609B2881799300C3EA1E /* PersonListViewController.swift */,
+				5848609C2881799300C3EA1E /* PersonListAssembly.swift */,
+				5848609D2881799300C3EA1E /* PersonListView.swift */,
+			);
+			path = PersonList;
+			sourceTree = "<group>";
+		};
+		584860A328817ACF00C3EA1E /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				584860AE28817AE700C3EA1E /* PersonListProvider.swift */,
+				584860B028817B8600C3EA1E /* PersonTableViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
 		584860B22881812E00C3EA1E /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +175,7 @@
 			children = (
 				584860B52881815200C3EA1E /* Models */,
 				584860B22881812E00C3EA1E /* Services */,
+				584860972881795F00C3EA1E /* Scenes */,
 				58CA9DE3288174E20004DBF7 /* AppDelegate.swift */,
 				58CA9DE5288174E20004DBF7 /* SceneDelegate.swift */,
 				58CA9DE7288174E20004DBF7 /* ViewController.swift */,
@@ -297,10 +344,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				584860B42881813C00C3EA1E /* PersonListService.swift in Sources */,
+				5848609E2881799300C3EA1E /* PersonListContract.swift in Sources */,
 				58CA9DE8288174E20004DBF7 /* ViewController.swift in Sources */,
+				5848609F2881799300C3EA1E /* PersonListPresenter.swift in Sources */,
+				584860AF28817AE700C3EA1E /* PersonListProvider.swift in Sources */,
+				584860B9288186AA00C3EA1E /* ViewControllerViewUnwrappable.swift in Sources */,
 				584860BB28818C8500C3EA1E /* Formatters.swift in Sources */,
+				584860A02881799300C3EA1E /* PersonListViewController.swift in Sources */,
 				584860B72881815800C3EA1E /* Person.swift in Sources */,
+				584860A12881799300C3EA1E /* PersonListAssembly.swift in Sources */,
+				584860A22881799300C3EA1E /* PersonListView.swift in Sources */,
 				58CA9DE4288174E20004DBF7 /* AppDelegate.swift in Sources */,
+				584860B128817B8600C3EA1E /* PersonTableViewCell.swift in Sources */,
 				58CA9DE6288174E20004DBF7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
