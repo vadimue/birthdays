@@ -24,27 +24,19 @@
 		584860C428818FC600C3EA1E /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584860BF28818FC600C3EA1E /* PersonDetailsViewController.swift */; };
 		584860C528818FC600C3EA1E /* PersonDetailsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584860C028818FC600C3EA1E /* PersonDetailsAssembly.swift */; };
 		584860C628818FC600C3EA1E /* PersonDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584860C128818FC600C3EA1E /* PersonDetailsView.swift */; };
+		584860C82881957F00C3EA1E /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584860C72881957F00C3EA1E /* Mocks.swift */; };
 		58CA9DE4288174E20004DBF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CA9DE3288174E20004DBF7 /* AppDelegate.swift */; };
 		58CA9DE6288174E20004DBF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CA9DE5288174E20004DBF7 /* SceneDelegate.swift */; };
 		58CA9DE8288174E20004DBF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CA9DE7288174E20004DBF7 /* ViewController.swift */; };
 		58CA9DEB288174E20004DBF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58CA9DE9288174E20004DBF7 /* Main.storyboard */; };
 		58CA9DED288174E40004DBF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58CA9DEC288174E40004DBF7 /* Assets.xcassets */; };
 		58CA9DF0288174E40004DBF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58CA9DEE288174E40004DBF7 /* LaunchScreen.storyboard */; };
-		58CA9DFB288174E50004DBF7 /* BirthdaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CA9DFA288174E50004DBF7 /* BirthdaysTests.swift */; };
-		58CA9E05288174E50004DBF7 /* BirthdaysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CA9E04288174E50004DBF7 /* BirthdaysUITests.swift */; };
-		58CA9E07288174E50004DBF7 /* BirthdaysUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CA9E06288174E50004DBF7 /* BirthdaysUITestsLaunchTests.swift */; };
+		58CA9DFB288174E50004DBF7 /* PersonListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CA9DFA288174E50004DBF7 /* PersonListPresenterTests.swift */; };
 		58CA9E15288175A60004DBF7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 58CA9E14288175A60004DBF7 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		58CA9DF7288174E50004DBF7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 58CA9DD8288174E20004DBF7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 58CA9DDF288174E20004DBF7;
-			remoteInfo = Birthdays;
-		};
-		58CA9E01288174E50004DBF7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 58CA9DD8288174E20004DBF7 /* Project object */;
 			proxyType = 1;
@@ -70,6 +62,7 @@
 		584860BF28818FC600C3EA1E /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
 		584860C028818FC600C3EA1E /* PersonDetailsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsAssembly.swift; sourceTree = "<group>"; };
 		584860C128818FC600C3EA1E /* PersonDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsView.swift; sourceTree = "<group>"; };
+		584860C72881957F00C3EA1E /* Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
 		58CA9DE0288174E20004DBF7 /* Birthdays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Birthdays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58CA9DE3288174E20004DBF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58CA9DE5288174E20004DBF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,10 +72,7 @@
 		58CA9DEF288174E40004DBF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58CA9DF1288174E40004DBF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58CA9DF6288174E50004DBF7 /* BirthdaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdaysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		58CA9DFA288174E50004DBF7 /* BirthdaysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysTests.swift; sourceTree = "<group>"; };
-		58CA9E00288174E50004DBF7 /* BirthdaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdaysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		58CA9E04288174E50004DBF7 /* BirthdaysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysUITests.swift; sourceTree = "<group>"; };
-		58CA9E06288174E50004DBF7 /* BirthdaysUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		58CA9DFA288174E50004DBF7 /* PersonListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListPresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,13 +86,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		58CA9DF3288174E50004DBF7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58CA9DFD288174E50004DBF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -178,7 +161,6 @@
 			children = (
 				58CA9DE2288174E20004DBF7 /* Birthdays */,
 				58CA9DF9288174E50004DBF7 /* BirthdaysTests */,
-				58CA9E03288174E50004DBF7 /* BirthdaysUITests */,
 				58CA9DE1288174E20004DBF7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -188,7 +170,6 @@
 			children = (
 				58CA9DE0288174E20004DBF7 /* Birthdays.app */,
 				58CA9DF6288174E50004DBF7 /* BirthdaysTests.xctest */,
-				58CA9E00288174E50004DBF7 /* BirthdaysUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,18 +194,10 @@
 		58CA9DF9288174E50004DBF7 /* BirthdaysTests */ = {
 			isa = PBXGroup;
 			children = (
-				58CA9DFA288174E50004DBF7 /* BirthdaysTests.swift */,
+				58CA9DFA288174E50004DBF7 /* PersonListPresenterTests.swift */,
+				584860C72881957F00C3EA1E /* Mocks.swift */,
 			);
 			path = BirthdaysTests;
-			sourceTree = "<group>";
-		};
-		58CA9E03288174E50004DBF7 /* BirthdaysUITests */ = {
-			isa = PBXGroup;
-			children = (
-				58CA9E04288174E50004DBF7 /* BirthdaysUITests.swift */,
-				58CA9E06288174E50004DBF7 /* BirthdaysUITestsLaunchTests.swift */,
-			);
-			path = BirthdaysUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,24 +242,6 @@
 			productReference = 58CA9DF6288174E50004DBF7 /* BirthdaysTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		58CA9DFF288174E50004DBF7 /* BirthdaysUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58CA9E10288174E50004DBF7 /* Build configuration list for PBXNativeTarget "BirthdaysUITests" */;
-			buildPhases = (
-				58CA9DFC288174E50004DBF7 /* Sources */,
-				58CA9DFD288174E50004DBF7 /* Frameworks */,
-				58CA9DFE288174E50004DBF7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				58CA9E02288174E50004DBF7 /* PBXTargetDependency */,
-			);
-			name = BirthdaysUITests;
-			productName = BirthdaysUITests;
-			productReference = 58CA9E00288174E50004DBF7 /* BirthdaysUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -301,10 +256,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					58CA9DF5288174E50004DBF7 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 58CA9DDF288174E20004DBF7;
-					};
-					58CA9DFF288174E50004DBF7 = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 58CA9DDF288174E20004DBF7;
 					};
@@ -329,7 +280,6 @@
 			targets = (
 				58CA9DDF288174E20004DBF7 /* Birthdays */,
 				58CA9DF5288174E50004DBF7 /* BirthdaysTests */,
-				58CA9DFF288174E50004DBF7 /* BirthdaysUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -346,13 +296,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		58CA9DF4288174E50004DBF7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58CA9DFE288174E50004DBF7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -392,16 +335,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58CA9DFB288174E50004DBF7 /* BirthdaysTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58CA9DFC288174E50004DBF7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58CA9E05288174E50004DBF7 /* BirthdaysUITests.swift in Sources */,
-				58CA9E07288174E50004DBF7 /* BirthdaysUITestsLaunchTests.swift in Sources */,
+				58CA9DFB288174E50004DBF7 /* PersonListPresenterTests.swift in Sources */,
+				584860C82881957F00C3EA1E /* Mocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,11 +347,6 @@
 			isa = PBXTargetDependency;
 			target = 58CA9DDF288174E20004DBF7 /* Birthdays */;
 			targetProxy = 58CA9DF7288174E50004DBF7 /* PBXContainerItemProxy */;
-		};
-		58CA9E02288174E50004DBF7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 58CA9DDF288174E20004DBF7 /* Birthdays */;
-			targetProxy = 58CA9E01288174E50004DBF7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -652,42 +582,6 @@
 			};
 			name = Release;
 		};
-		58CA9E11288174E50004DBF7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6R48635UGJ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vadymBrusko.BirthdaysUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Birthdays;
-			};
-			name = Debug;
-		};
-		58CA9E12288174E50004DBF7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6R48635UGJ;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vadymBrusko.BirthdaysUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Birthdays;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -714,15 +608,6 @@
 			buildConfigurations = (
 				58CA9E0E288174E50004DBF7 /* Debug */,
 				58CA9E0F288174E50004DBF7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		58CA9E10288174E50004DBF7 /* Build configuration list for PBXNativeTarget "BirthdaysUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				58CA9E11288174E50004DBF7 /* Debug */,
-				58CA9E12288174E50004DBF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

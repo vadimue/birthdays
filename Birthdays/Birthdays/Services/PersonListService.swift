@@ -11,7 +11,7 @@ enum NetworkError: Error {
     case somethingWentWrong
 }
 
-protocol PersonListServiceProtocol: PersonListService {
+protocol PersonListServiceProtocol {
     func fetchPersons(completionHandler: @escaping ((Result<PersonList, Error>) -> Void))
 }
 
