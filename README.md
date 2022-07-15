@@ -23,6 +23,7 @@
 - I would like to build a routing layer with Coordinator/Router pattern
 - Localization
 - Add some more helpful extensions
+- Add SwiftyMocky for auto-generation of mocks https://github.com/MakeAWishFoundation/SwiftyMocky
 
 5. Contact details
 - https://github.com/vadimue/
